@@ -15,11 +15,11 @@ export default class Navbar extends Component {
       "textTransform":"capitalize"
     }
     return (
-      <navbar className="navbar navbar-dark" style={style}>
+      <nav className="navbar navbar-dark" style={style}>
         <Link to="/">
           <img src={logo} alt="logo" className="navbar-brand" style={{width:'20%', height:'20%'}}/>
         </Link>
-      </navbar>
+      </nav>
     );
   }
 }
