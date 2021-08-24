@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Switch, Route } from 'react-router-dom';
+// import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PurchaseOrderList from './components/PurchaseOrderList';
-import TestLoadData from './components/TestLoadData';
+// import TestLoadData from './components/TestLoadData';
+
+import ButtonContainer from './components/ButtonContainer';
 // import PurchaseOrderList from './components/PurchaseOrderList';
 // import OrderDetails from './components/OrderDetails';
 // import Privacy from './components/Privacy';
+
+
 
 
 export default class App extends Component {
@@ -16,7 +20,8 @@ export default class App extends Component {
       <div>
         <Navbar />
         <PurchaseOrderList />
-        <TestLoadData />
+        {/* <TestLoadData /> */}
+        <ButtonContainer />
         <Footer />
       </div>
     )
